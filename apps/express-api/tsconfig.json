@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["dist", "build", "node_modules"],
+  "include": [
+    "vitest.config.ts",
+    "package.json",
+    ".eslintrc.js",
+    "./**/*.ts",
+    "./**/*.tsx"
+  ]
+}

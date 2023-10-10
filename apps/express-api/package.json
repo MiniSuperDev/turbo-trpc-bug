@@ -1,0 +1,17 @@
+{
+  "name": "@examples/express-server",
+  "version": "10.40.0",
+  "private": true,
+  "dependencies": {
+    "@trpc/client": "^10.40.0",
+    "@trpc/server": "^10.40.0",
+    "trpc-openapi": "^1.2.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.16",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
