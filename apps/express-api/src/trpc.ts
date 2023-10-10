@@ -12,4 +12,6 @@ export const t = initTRPC.context<Context>().create();
 
 export const appRouter = t.router({});
 
-export const publicProcedure = t.procedure;
+export const publicProcedure = t.procedure.use(async (opts) => {
+  return await opts.next();
+});

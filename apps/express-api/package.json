@@ -5,7 +5,6 @@
   "dependencies": {
     "@trpc/client": "^10.40.0",
     "@trpc/server": "^10.40.0",
-    "trpc-openapi": "^1.2.0",
     "zod": "^3.0.0"
   },
   "devDependencies": {
